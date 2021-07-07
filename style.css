@@ -1,0 +1,162 @@
+body{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+.start{
+    margin: 0;
+    font-size: 72px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(22, 160, 133) 0%, rgb(244, 208, 63) 51%, rgb(22, 160, 133) 100%);
+}
+.start div{
+   margin: auto;
+}
+.container-body {
+    width: 1120px;
+    margin: auto;
+}
+h1{
+    font-size: 68px;
+}
+.pink-color{
+    color: rgb(219, 86, 108);
+
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+section:last-child{
+    margin-bottom: 0px;
+}
+.fst_text{
+    width: 50%;
+    float: left;
+}
+.second-text {
+    width: 50%;
+    float: right;
+}
+.second-text p {
+    text-align: justify;
+    font-size: 18px !important;
+    padding-right: 90px;
+    line-height: 1.5;
+}
+.first-img{
+    width: 50%;
+    float: right;
+}
+.second-img {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+}
+.first-img div{
+    text-align: right;
+}
+.fst_img{
+    width: 390px;
+    height: 390px;
+    margin-top: 55px;
+}
+.new_img{
+    width: 390px;
+    height: 390px;
+}
+.fst_text p{
+    font-size: 25px;
+    line-height: 1.5; 
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 35px 20px 35px;
+    background: aquamarine;
+    background-image: linear-gradient(to right, rgb(255, 110, 127) 0%, rgb(191, 233, 255) 51%, rgb(255, 110, 127) 100%);
+    border-radius: 30px;
+}
+.button{
+    margin-top: 50px;
+}
+.back-img{
+    background-image: url('wh.jpg');
+    background-repeat: no-repeat;
+    height: 460px;
+}
+
+.third-content{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.third-content h3{
+    margin-top: 5px;
+    font-size: 40px;
+    text-align: center;
+}
+.third-content p{
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 1.5;
+}
+
+.cards{
+    display: flex;  
+    width: 33.33%;
+    border-radius: 10px;
+    margin-right: 34px;
+  }
+  .cards:last-child{
+    margin-right: 0px;
+  }
+.card-body{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.card-body h2 {
+    text-align: center;
+    font-size: 33px;
+}
+.card-body p {
+    line-height: 1.5;
+}
+
+.radius{
+    border-radius: 20px;
+    margin-top: 5px;
+    width: 100%;
+    height: 250px;
+}
+
+.fft_txt{
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 6px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.box{
+    margin: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    background-color:rgb(255, 110, 127);
+    padding-bottom: 0;
+    height: 170px;
+}
+.footer h2{
+    margin-top: 50px;
+}
+.white-color{
+    color: white;
+}
